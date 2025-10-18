@@ -1,7 +1,7 @@
 # sas-data-sets-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SAS Data Sets
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/download/mcp/). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our [CData MCP Server for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/download/mcp/). 
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAS Data Sets supported by the [CData JDBC Driver for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/jdbc/).
 
