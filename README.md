@@ -1,9 +1,9 @@
 # sas-data-sets-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for SAS Data Sets
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAS Data Sets (beta)](https://www.cdata.com/download/download.aspx?sku=LIZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAS Data Sets supported by the [CData JDBC Driver for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data SAS Data Sets supported by the [CData JDBC Driver for SAS Data Sets](https://www.cdata.com/drivers/sasdatasets/jdbc/).
 
 CData JDBC Driver connects to SAS Data Sets by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes SAS Data Sets data available through a s
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sasdatasets/download/jdbc](https://www.cdata.com/drivers/sasdatasets/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/sasdatasets/download/jdbc](https://www.cdata.com/drivers/sasdatasets/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for SAS Data Sets\`
